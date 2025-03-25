@@ -1,40 +1,217 @@
-.App {
+/* ==========================
+   Global Styles
+========================== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9fafb; /* Light background */
+  }
+  
+  /* Container to add padding and limit width */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* ==========================
+     Header Styles
+  ========================== */
+  header {
+    background-color: #1e293b;
+    color: #fff;
+    padding: 20px;
     text-align: center;
   }
   
-  /* Add Global Section Padding */
-  body {
-    background: linear-gradient(to right, #1f1c2c, #928dab);
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+  /* Main Content */
+  .main-content {
+    padding: 20px;
+  }
+  
+  /* ==========================
+     Button Styles
+  ========================== */
+  button {
+    background-color: #22c55e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #16a34a;
+  }
+  
+  /* ==========================
+     Footer Styles
+  ========================== */
+  footer {
+    background-color: #1e293b;
     color: #fff;
-  }
-  section {
-    padding: 4rem 2rem;
-  }
-  html {
-    scroll-behavior: smooth;
+    padding: 15px;
+    text-align: center;
   }
   
-  .active-section {
-    color: #4caf50;
-    font-weight: bold;
-    border-bottom: 2px solid #4caf50;
+  /* ==========================
+     Projects Section Styles
+  ========================== */
+  .projects-container {
+    background-color: #fff; /* White background outside project area */
+    padding: 50px 20px;
+    text-align: center;
   }
-  /* Global styles for full-screen components */
-html, body, #root {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+  
+  /* Projects Heading */
+  .projects-heading {
+    color: #22c55e; /* Green heading */
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph Styles */
+  .projects-container p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Projects List for Desktop */
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  /* Individual Project Row */
+  .project-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1e293b; /* Dark background for contrast */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-row:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Project Image Container */
+  .project-image-container {
+    flex: 1;
+    max-width: 50%;
+    text-align: center;
+  }
+  
+  /* Project Image */
+  .project-image {
     width: 100%;
+    max-width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
   }
   
-  html,
-body,
-#root {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
+  /* Project Info */
+  .project-info {
+    flex: 1;
+    max-width: 50%;
+    padding-left: 20px;
+    color: #e2e8f0;
+  }
+  
+  /* Project Heading */
+  h3 {
+    color: #22c55e; /* Green heading */
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph Styles */
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* ==========================
+     Responsive Styles
+  ========================== */
+  
+  /* For Tablets and Small Screens */
+  @media (max-width: 768px) {
+    .project-row {
+      flex-direction: column;
+      padding: 15px;
+    }
+  
+    .project-image-container,
+    .project-info {
+      max-width: 100%;
+      padding: 0;
+    }
+  
+    .project-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .projects-heading {
+      font-size: 2rem;
+    }
+  
+    h3 {
+      font-size: 1.5rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  
+    button {
+      padding: 8px 16px;
+    }
+  }
+  
+  /* For Mobile Phones */
+  @media (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+  
+    header {
+      padding: 10px;
+    }
+  
+    .projects-container {
+      padding: 20px 10px;
+    }
+  
+    .project-row {
+      padding: 10px;
+    }
+  
+    .projects-heading {
+      font-size: 1.8rem;
+    }
+  
+    h3 {
+      font-size: 1.3rem;
+    }
+  
+    p {
+      font-size: 0.85rem;
+    }
+  
+    button {
+      padding: 6px 12px;
+    }
+  }
+  
