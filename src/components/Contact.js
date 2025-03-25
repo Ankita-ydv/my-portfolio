@@ -25,7 +25,7 @@ const Contact = () => {
         {/* GitHub */}
         <div className="contact-item">
           <a
-            href="https://github.com/your-github-id"
+            href="https://github.com/Ankita-ydv"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-link"
@@ -38,7 +38,7 @@ const Contact = () => {
         {/* Email */}
         <div className="contact-item">
           <a
-            href="mailto:your-email@example.com"
+            href="mailto:ankita.13y@gmail.com"
             className="contact-link"
           >
             <FaEnvelope className="contact-icon email" />
