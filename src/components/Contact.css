@@ -96,4 +96,12 @@
       font-size: 1.2rem;
     }
   }
+  .contact-container {
+    position: relative;
+    z-index: 1;
+    margin-top: 20px; /* Add space above contact section */
+  }
+  .contact-container {
+    min-height: 200px;
+  }
   

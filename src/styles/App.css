@@ -173,4 +173,18 @@ body {
       font-size: 0.85rem;
     }
   }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Space between sections */
+  }
+  @media (max-width: 768px) {
+    .skills-container {
+      margin-bottom: 30px;
+    }
+  
+    .contact-container {
+      margin-top: 20px;
+    }
+  }
   

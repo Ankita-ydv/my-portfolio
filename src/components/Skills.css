@@ -108,4 +108,10 @@
       font-size: 2.5rem;
     }
   }
+  .skills-container {
+    margin-bottom: 40px; /* Space between Skills and Contact */
+  }
+  .skills-container {
+    min-height: 400px; /* Define minimum height for skills */
+  }
   
