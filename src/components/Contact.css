@@ -1,0 +1,71 @@
+/* Contact.css */
+.contact-container {
+    height: 50vh;
+    background-color: #0f172a;
+    color: #f0f9ff;
+    display: flex;
+    flex-direction: column; /* Keeps the title on top */
+    justify-content: flex-start; /* Align content at the top */
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  /* Title */
+  h2 {
+    font-size: 2.8rem;
+    margin-bottom: 50px;
+    color: #3b82f6;
+  }
+  
+  /* Contact items aligned horizontally */
+  .contact-items-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Individual Contact Item */
+  .contact-item {
+    margin-bottom: 0;
+  }
+  
+  /* Contact Link */
+  .contact-link {
+    background-color: #1e293b;
+    color: #e2e8f0;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 5px 15px rgba(59, 130, 246, 0.2);
+  }
+  
+  .contact-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
+  }
+  
+  /* Icon Styling */
+  .contact-icon {
+    font-size: 1.5rem;
+  }
+  
+  .linkedin {
+    color: #3b82f6;
+  }
+  
+  .github {
+    color: #e2e8f0;
+  }
+  
+  .email {
+    color: #f97316;
+  }
+  

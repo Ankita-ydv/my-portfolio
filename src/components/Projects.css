@@ -1,0 +1,81 @@
+/* Projects.css */
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .project-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1e293b; /* Dark background for contrast */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-row:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-image-container {
+    flex: 1;
+    max-width: 50%;
+    text-align: center;
+  }
+  
+  .project-image {
+    width: 100%;
+    max-width: 400px; /* Set max width for all images */
+    height: 250px; /* Set fixed height for consistency */
+    object-fit: cover; /* Ensures the image maintains aspect ratio */
+    border-radius: 8px;
+  }
+  
+  .project-info {
+    flex: 1;
+    max-width: 50%;
+    padding-left: 20px;
+    color: #e2e8f0;
+  }
+  
+ 
+
+  h3 {
+    color: #22c55e; /* Green heading */
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .projects-container {
+    background-color: #ffffff; /* White background outside */
+    padding: 40px 20px;
+    border-radius: 12px;
+  }
+  .projects-heading {
+    color: #22c55e; /* Green heading for "My Projects" */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .github-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #22c55e;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .github-link:hover {
+    color: #16a34a; /* Darker green on hover */
+  }
+  
