@@ -122,4 +122,55 @@ body {
       padding: 6px 12px;
     }
   }
+  /* Contact Section */
+.contact-container {
+    background-color: #1e293b;
+    padding: 40px 20px;
+    border-radius: 12px;
+    color: #e2e8f0;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .contact-container h2 {
+    color: #22c55e;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact form or links */
+  .contact-info {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  /* Mobile Styles for Contact Section */
+  @media (max-width: 768px) {
+    .contact-container {
+      padding: 20px 15px;
+    }
+  
+    .contact-container h2 {
+      font-size: 1.5rem;
+    }
+  
+    .contact-info {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-container {
+      padding: 15px;
+    }
+  
+    .contact-container h2 {
+      font-size: 1.3rem;
+    }
+  
+    .contact-info {
+      font-size: 0.85rem;
+    }
+  }
   
